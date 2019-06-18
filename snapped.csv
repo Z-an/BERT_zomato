@@ -1,0 +1,423 @@
+Id,Name,Suburb,Zomato Name,levenshtein,n,url
+1365.0,Sandoitchi,Darlinghurst,Sandoitchi,0,1,"https://www.zomato.com/sydney/sandoitchi-darlinghurst
+"
+1618.0,Pizza M,Ultimo,Pizza M,0,1,"https://www.zomato.com/sydney/pizza-m-ultimo
+"
+734.0,Beijing Legend,Pyrmont,Beijing Legend,0,1,"https://www.zomato.com/sydney/beijing-legend-pyrmont
+"
+1467.0,Sexy Tea,Haymarket,Sexy Tea,0,1,"https://www.zomato.com/sydney/sexy-tea-haymarket
+"
+1312.0,QQ Tea,Parramatta,QQ Tea,0,1,"https://www.zomato.com/sydney/qq-tea-parramatta
+"
+1387.0,The Pie Tin,Newtown,The Pie Tin,0,1,"https://www.zomato.com/sydney/the-pie-tin-newtown
+"
+1663.0,Ramen Zundo,Chatswood,Ramen Zundo,0,4,"https://www.zomato.com/sydney/ramen-zundo-chatswood
+"
+1712.0,Sharetea,Burwood,Sharetea,0,8,"https://www.zomato.com/sydney/sharetea-burwood
+"
+1599.0,Mulan Temple,Newtown,Mulan Temple,0,1,"https://www.zomato.com/sydney/bite-of-china-newtown
+"
+1454.0,Saigon Summer,Surry Hills,Saigon Summer,0,2,"https://www.zomato.com/sydney/saigon-summer-surry-hills
+"
+1043.0,Mad Mex,Harbourside,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-6-cbd
+"
+1376.0,Chachu's,Sydney,Chachu's,0,1,"https://www.zomato.com/sydney/chachus-1-cbd
+"
+1634.0,Bean Code,Chatswood,Bean Code,0,1,"https://www.zomato.com/sydney/bean-code-chatswood
+"
+1684.0,Flower Child,Chatswood,Flower Child,0,1,"https://www.zomato.com/sydney/flower-child-chatswood
+"
+1211.0,Ho Jiak,Strathfield,Ho Jiak,0,3,"https://www.zomato.com/sydney/ho-jiak-strathfield
+"
+1166.0,Mama's Buoi,Tramsheds,Mama's Buoi,0,3,"https://www.zomato.com/sydney/mamas-buoi-forest-lodge
+"
+1499.0,A1 Canteen,Chippendale,A1 Canteen,0,1,"https://www.zomato.com/sydney/a1-canteen-chippendale
+"
+580.0,Eat Fuh,Marrickville,Eat Fuh,0,1,"https://www.zomato.com/sydney/eat-fuh-marrickville
+"
+905.0,Rush Hotdogs and Burgers,Surry Hills,Rush Hotdogs and Burgers,0,1,"https://www.zomato.com/sydney/rush-hotdogs-and-burgers-surry-hills
+"
+1458.0,Oh! Matcha,Regent Place,Oh! Matcha,0,2,"https://www.zomato.com/sydney/oh-matcha-1-cbd
+"
+1582.0,Ichi-ban Boshi,The Galeries,Ichi-ban Boshi,0,3,"https://www.zomato.com/sydney/ichi-ban-boshi-cbd
+"
+1563.0,New Shanghai,Ashfield,New Shanghai,0,3,"https://www.zomato.com/sydney/new-shanghai-ashfield
+"
+1274.0,Thirsty Bird,Potts Point,Thirsty Bird,0,1,"https://www.zomato.com/sydney/thirsty-bird-potts-point
+"
+1044.0,Mad Mex,Winter Garden,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-3-cbd
+"
+1367.0,The Sandwich Shop,Surry Hills,The Sandwich Shop,0,3,"https://www.zomato.com/sydney/the-sandwich-shop-surry-hills
+"
+1322.0,Sharetea,Zetland,Sharetea,0,8,"https://www.zomato.com/sydney/sharetea-zetland
+"
+1390.0,Three Williams,Redfern,Three Williams,0,1,"https://www.zomato.com/sydney/three-williams-redfern
+"
+1254.0,The Factory Grind,Surry Hills,The Factory Grind,0,1,"https://www.zomato.com/sydney/the-factory-grind-surry-hills
+"
+1357.0,Mad Mex,Darlinghurst,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-darlinghurst
+"
+882.0,Love Crepe,Pyrmont,Love Crepe,0,1,"https://www.zomato.com/sydney/love-crepe-pyrmont
+"
+1657.0,Mama Mulan,Chatswood,Mama Mulan,0,1,"https://www.zomato.com/sydney/mama-mulan-chatswood
+"
+1665.0,Gelateria Gondola,Chatswood,Gelateria Gondola,0,1,"https://www.zomato.com/sydney/gelateria-gondola-chatswood
+"
+1572.0,Burger Project,Bondi Junction,Burger Project,0,8,"https://www.zomato.com/sydney/burger-project-bondi-junction
+"
+1255.0,Edition Coffee Roasters,Haymarket,Edition Coffee Roasters,0,1,"https://www.zomato.com/sydney/edition-coffee-roasters-haymarket
+"
+1609.0,The Bulgogi,Sydney,The Bulgogi,0,3,"https://www.zomato.com/sydney/the-bulgogi-1-cbd
+"
+1554.0,Meet Fresh,Chinatown,Meet Fresh,0,1,"https://www.zomato.com/sydney/meet-fresh-haymarket
+"
+1483.0,Bubble Nini Tea,Chippendale,Bubble Nini Tea,0,1,"https://www.zomato.com/sydney/bubble-nini-tea-chippendale
+"
+329.0,The Little Snail,Darling Harbour,The Little Snail,0,1,"https://www.zomato.com/sydney/the-little-snail-cbd
+"
+630.0,Cucina 105,Liverpool,Cucina 105,0,1,"https://www.zomato.com/sydney/cucina-105-liverpool
+"
+1519.0,Song Tea,Dixon Street,Song Tea,0,2,"https://www.zomato.com/sydney/song-tea-chinatown
+"
+1194.0,Ze Pickle,Surry Hills,Ze Pickle,0,3,"https://www.zomato.com/sydney/ze-pickle-surry-hills
+"
+1553.0,Xing Xing Sichuan Dish,Chinatown,Xing Xing Sichuan Dish,0,1,"https://www.zomato.com/sydney/xing-xing-sichuan-dish-haymarket
+"
+1020.0,Rey's Place,Darlinghurst,Rey's Place,0,1,"https://www.zomato.com/sydney/reys-place-potts-point
+"
+1575.0,Burger Project,MLC Martin Place,Burger Project,0,8,"https://www.zomato.com/sydney/burger-project-1-cbd
+"
+1304.0,Lord of the Fries,George Street,Lord of the Fries,0,2,"https://www.zomato.com/sydney/lord-of-the-fries-sydney
+"
+1463.0,iDarts Zen,Sydney,iDarts Zen,0,1,"https://www.zomato.com/sydney/idarts-zen-cbd
+"
+1541.0,Din Tai Fung,Central Park Mall,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-chippendale
+"
+1610.0,Thai Pothong,Newtown,Thai Pothong,0,2,"https://www.zomato.com/sydney/thai-pothong-newtown
+"
+1314.0,Fratelli Fresh,Macquarie Street,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-1-cbd
+"
+1310.0,Sharetea,Chatswood Interchange,Sharetea,0,8,"https://www.zomato.com/sydney/sharetea-chatswood
+"
+373.0,Kujin,Elizabeth Bay,Kujin,0,1,"https://www.zomato.com/sydney/kujin-elizabeth-bay
+"
+1187.0,Poked,North Sydney,Poked,0,1,"https://www.zomato.com/sydney/poked-north-sydney
+"
+1616.0,Saigon Bowl,Strathfield,Saigon Bowl,0,1,"https://www.zomato.com/sydney/saigon-bowl-strathfield
+"
+1327.0,Piccolo Me,Hunter Street,Piccolo Me,0,4,"https://www.zomato.com/sydney/piccolo-me-2-cbd
+"
+384.0,Rubyos,Newtown,Rubyos,0,1,"https://www.zomato.com/sydney/rubyos-newtown
+"
+1536.0,Din Tai Fung,Westfield Chatswood,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-chatswood
+"
+993.0,Teascoo,Bondi Junction,Teascoo,0,2,"https://www.zomato.com/sydney/teascoo-bondi-junction
+"
+960.0,Coco Cubano,Top Ryde,Coco Cubano,0,4,"https://www.zomato.com/sydney/coco-cubano-ryde
+"
+990.0,I Love Pho,Crows Nest,I Love Pho,0,1,"https://www.zomato.com/sydney/i-love-pho-crows-nest
+"
+1296.0,Sharetea,North Sydney,Sharetea,0,8,"https://www.zomato.com/sydney/sharetea-north-sydney
+"
+1485.0,Madame Nhu,Westfield Chatswood,Madame Nhu,0,3,"https://www.zomato.com/sydney/madame-nhu-chatswood
+"
+1157.0,Pasta Pantry,Bondi Junction,Pasta Pantry,0,2,"https://www.zomato.com/sydney/pasta-pantry-bondi-junction
+"
+1612.0,The Bulgogi,Strathfield,The Bulgogi,0,3,"https://www.zomato.com/sydney/the-bulgogi-strathfield
+"
+1538.0,Din Tai Fung,The Star,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-pyrmont
+"
+1323.0,RivaReno Gelato,Barangaroo,RivaReno Gelato,0,2,"https://www.zomato.com/sydney/rivareno-gelato-barangaroo
+"
+1576.0,Burger Project,World Square Shopping Centre,Burger Project,0,8,"https://www.zomato.com/sydney/burger-project-cbd
+"
+526.0,Bombay Street Kitchen,Glebe,Bombay Street Kitchen,0,1,"https://www.zomato.com/sydney/bombay-street-kitchen-glebe
+"
+1348.0,Ume Burger,Barangaroo,Ume Burger,0,1,"https://www.zomato.com/sydney/ume-burger-barangaroo
+"
+632.0,Subsolo,Sydney,Subsolo,0,1,"https://www.zomato.com/sydney/subsolo-cbd
+"
+1352.0,CoCo Fresh Tea & Juice,Broadway,CoCo Fresh Tea & Juice,0,11,"https://www.zomato.com/sydney/coco-fresh-tea-juice-1-ultimo
+"
+611.0,La Sen,Randwick,La Sen,0,1,"https://www.zomato.com/sydney/la-sen-randwick
+"
+944.0,Bekya,Forest Lodge,Bekya,0,1,"https://www.zomato.com/sydney/bekya-forest-lodge
+"
+1636.0,Master Yang,Chatswood,Master Yang,0,1,"https://www.zomato.com/sydney/master-yang-chatswood
+"
+1242.0,CoCo Fresh Tea & Juice,Town Hall,CoCo Fresh Tea & Juice,0,11,"https://www.zomato.com/sydney/coco-fresh-tea-juice-1-cbd
+"
+996.0,Bare Grill,Surry Hills,Bare Grill,0,1,"https://www.zomato.com/sydney/bare-grill-surry-hills
+"
+1353.0,Pasta Pantry,Bellevue Hill,Pasta Pantry,0,2,"https://www.zomato.com/sydney/pasta-pantry-bondi-junction
+"
+1226.0,South Dowling Sandwiches,Darlinghurst,South Dowling Sandwiches,0,1,"https://www.zomato.com/sydney/south-dowling-sandwiches-darlinghurst
+"
+1573.0,Burger Project,Broadway Shopping Centre,Burger Project,0,8,"https://www.zomato.com/sydney/burger-project-glebe
+"
+1335.0,Piccolo Me,King Street,Piccolo Me,0,4,"https://www.zomato.com/sydney/piccolo-me-1-cbd
+"
+1289.0,Burger Patch,Chatswood,Burger Patch,0,1,"https://www.zomato.com/sydney/burger-patch-chatswood
+"
+1037.0,Mad Mex,MET Centre,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-cbd
+"
+296.0,Casa Ristorante Italiano,Darling Harbour,Casa Ristorante Italiano,0,1,"https://www.zomato.com/sydney/casa-ristorante-italiano-cbd
+"
+1453.0,Saigon Summer,Ashfield Mall,Saigon Summer,0,2,"https://www.zomato.com/sydney/saigon-summer-ashfield
+"
+1354.0,Sharetea,UNSW,Sharetea,0,8,"https://www.zomato.com/sydney/sharetea-kensington
+"
+1324.0,RivaReno Gelato,Darlinghurst,RivaReno Gelato,0,2,"https://www.zomato.com/sydney/rivareno-gelato-darlinghurst
+"
+1319.0,Fratelli Fresh,Bridge Street,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-cbd
+"
+1385.0,Mr Crackles,Darlinghurst,Mr Crackles,0,1,"https://www.zomato.com/sydney/mr-crackles-darlinghurst
+"
+689.0,Pho Mumum,Chippendale,Pho Mumum,0,1,"https://www.zomato.com/sydney/pho-mumum-ultimo
+"
+1632.0,Mamak,Haymarket,Mamak,0,2,"https://www.zomato.com/sydney/mamak-haymarket
+"
+1633.0,Mamak,Chatswood,Mamak,0,2,"https://www.zomato.com/sydney/mamak-chatswood
+"
+1247.0,CoCo Fresh Tea & Juice,Regent Place,CoCo Fresh Tea & Juice,0,11,"https://www.zomato.com/sydney/coco-fresh-tea-juice-cbd
+"
+1315.0,Fratelli Fresh,Westfield Sydney CBD,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-2-cbd
+"
+1656.0,Fujimi Dorayaki,Chatswood,Fujimi Dorayaki,0,1,"https://www.zomato.com/sydney/fujimi-dorayaki-chatswood
+"
+1317.0,Fratelli Fresh,Crows Nest,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-crows-nest
+"
+381.0,Blue Fish,Darling Harbour,Blue Fish,0,1,"https://www.zomato.com/sydney/blue-fish-cbd
+"
+1659.0,Liu's Kitchen,Chatswood,Liu's Kitchen,0,1,"https://www.zomato.com/sydney/lius-kitchen-chatswood
+"
+1537.0,Din Tai Fung,Broadway Shopping Centre,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-glebe
+"
+728.0,Dumpling Hut,Newtown,Dumpling Hut,0,1,"https://www.zomato.com/sydney/dumpling-hut-newtown
+"
+1147.0,Osteria Antica,Annandale,Osteria Antica,0,1,"https://www.zomato.com/sydney/osteria-antica-annandale
+"
+1249.0,Mai Viet,Redfern,Mai Viet,0,1,"https://www.zomato.com/sydney/mai-viet-redfern
+"
+961.0,Coco Cubano,Central Park,Coco Cubano,0,4,"https://www.zomato.com/sydney/coco-cubano-chippendale
+"
+1472.0,TNS Coffee Project,Chippendale,TNS Coffee Project,0,1,"https://www.zomato.com/sydney/tns-coffee-project-chippendale
+"
+973.0,Coco Cubano,Parramatta,Coco Cubano,0,4,"https://www.zomato.com/sydney/coco-cubano-parramatta
+"
+1459.0,Oh! Matcha,World Square,Oh! Matcha,0,2,"https://www.zomato.com/sydney/oh-matcha-2-cbd
+"
+1546.0,The Bun Gallery,Haymarket,The Bun Gallery,0,1,"https://www.zomato.com/sydney/the-bun-gallery-haymarket
+"
+1465.0,Granny Wolf BBQ,Chippendale,Granny Wolf BBQ,0,1,"https://www.zomato.com/sydney/granny-wolf-bbq-chippendale
+"
+474.0,Black Ginger,Enmore,Black Ginger,0,1,"https://www.zomato.com/sydney/black-ginger-newtown
+"
+1215.0,Mad Mex,Zetland,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-1-zetland
+"
+1470.0,Ramen Zundo,World Square Shopping Centre,Ramen Zundo,0,4,"https://www.zomato.com/sydney/ramen-zundo-cbd
+"
+1611.0,Thai Pothong,Marrickville,Thai Pothong,0,2,"https://www.zomato.com/sydney/thai-pothong-marrickville
+"
+659.0,Spanish Tapas,Glebe,Spanish Tapas,0,2,"https://www.zomato.com/sydney/spanish-tapas-glebe
+"
+1687.0,Chat Thai,Haymarket,Chat Thai,0,2,"https://www.zomato.com/sydney/chat-thai-haymarket
+"
+1045.0,Mad Mex,Central Station,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-haymarket
+"
+489.0,Olivo,Darling Harbour,Olivo,0,1,"https://www.zomato.com/sydney/olivo-cbd
+"
+1055.0,PappaRich,Macquarie,PappaRich,0,2,"https://www.zomato.com/sydney/papparich-1-macquarie-park
+"
+1366.0,The Sandwich Shop,Haymarket,The Sandwich Shop,0,3,"https://www.zomato.com/sydney/the-sandwich-shop-haymarket
+"
+1305.0,Lord of the Fries,Central Station,Lord of the Fries,0,2,"https://www.zomato.com/sydney/lord-of-the-fries-haymarket
+"
+1411.0,The Sandwich Shop,Steam Mill Popup,The Sandwich Shop,0,3,"https://www.zomato.com/sydney/the-sandwich-shop-haymarket
+"
+425.0,Harbour Bar & Kitchen,Darling Harbour,Harbour Bar & Kitchen,0,1,"https://www.zomato.com/sydney/harbour-bar-kitchen-cbd
+"
+1593.0,Chapayom,Sydney,Chapayom,0,1,"https://www.zomato.com/sydney/chapayom-cbd
+"
+294.0,Bluewater Cafe,Manly,Bluewater Cafe,0,3,"https://www.zomato.com/sydney/bluewater-cafe-manly
+"
+512.0,Chur Burger,Surry Hills,Chur Burger,0,1,"https://www.zomato.com/sydney/chur-burger-surry-hills
+"
+1337.0,Piccolo Me,Castlereagh Street,Piccolo Me,0,4,"https://www.zomato.com/sydney/piccolo-me-cbd
+"
+1542.0,Phomo,Barangaroo,Phomo,0,1,"https://www.zomato.com/sydney/phomo-barangaroo
+"
+959.0,Coco Cubano,Kensington UNSW,Coco Cubano,0,4,"https://www.zomato.com/sydney/coco-cubano-kensington
+"
+1318.0,Fratelli Fresh,Alexandria,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-alexandria
+"
+1680.0,Beau Tea,Cabramatta,Beau Tea,0,4,"https://www.zomato.com/sydney/beau-tea-cabramatta
+"
+1539.0,Din Tai Fung,Greenwood Plaza,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-north-sydney
+"
+1534.0,Din Tai Fung,World Square Shopping Centre,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-1-cbd
+"
+1456.0,Tonda Pizza,Chippendale,Tonda Pizza,0,1,"https://www.zomato.com/sydney/tonda-pizza-chippendale
+"
+1479.0,Mama Rosy's,Newtown,Mama Rosy's,0,1,"https://www.zomato.com/sydney/mama-rosys-newtown
+"
+1339.0,Fratelli Fresh,Darling Harbour,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-3-cbd
+"
+1574.0,Burger Project,Circular Quay,Burger Project,0,8,"https://www.zomato.com/sydney/burger-project-2-cbd
+"
+911.0,Great Aunty Three,Enmore,Great Aunty Three,0,1,"https://www.zomato.com/sydney/great-aunty-three-enmore
+"
+1581.0,Ichi-ban Boshi,Bondi Junction,Ichi-ban Boshi,0,3,"https://www.zomato.com/sydney/ichi-ban-boshi-1-bondi-junction
+"
+785.0,Criniti's,Manly,Criniti's,0,3,"https://www.zomato.com/sydney/crinitis-manly
+"
+1661.0,Gelatissimo,Chatswood,Gelatissimo,0,1,"https://www.zomato.com/sydney/gelatissimo-chatswood
+"
+1543.0,Din Tai Fung,Miranda,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-miranda
+"
+1316.0,Fratelli Fresh,Walsh Bay,Fratelli Fresh,0,7,"https://www.zomato.com/sydney/fratelli-fresh-dawes-point
+"
+1685.0,Seoulmate,Chatswood,Seoulmate,0,1,"https://www.zomato.com/sydney/seoulmate-north-willoughby
+"
+904.0,Top's Kitchen,Surry Hills,Top's Kitchen,0,1,"https://www.zomato.com/sydney/tops-kitchen-surry-hills
+"
+1153.0,Luxe,Barangaroo,Luxe,0,1,"https://www.zomato.com/sydney/luxe-barangaroo
+"
+1482.0,Ajisen Ramen,Sydney,Ajisen Ramen,0,2,"https://www.zomato.com/sydney/ajisen-ramen-cbd
+"
+1154.0,Mama's Buoi,Crow's Nest,Mama's Buoi,0,3,"https://www.zomato.com/sydney/mamas-buoi-crows-nest
+"
+1246.0,CoCo Fresh Tea & Juice,Ultimo,CoCo Fresh Tea & Juice,0,11,"https://www.zomato.com/sydney/coco-fresh-tea-juice-chippendale
+"
+387.0,Delhi 'O' Delhi,Newtown,Delhi 'O' Delhi,0,1,"https://www.zomato.com/sydney/delhi-o-delhi-newtown
+"
+1448.0,Khoi Eatery,Marrickville,Khoi Eatery,0,1,"https://www.zomato.com/sydney/khoi-eatery-1-marrickville
+"
+707.0,Qing's Kitchen,Eastwood,Qing's Kitchen,0,1,"https://www.zomato.com/sydney/qings-kitchen-eastwood
+"
+1155.0,Mama's Buoi,Surry Hills,Mama's Buoi,0,3,"https://www.zomato.com/sydney/mamas-buoi-surry-hills
+"
+1540.0,Din Tai Fung,Westfield CBD,Din Tai Fung,0,8,"https://www.zomato.com/sydney/din-tai-fung-cbd
+"
+1477.0,Pho Gia Hoi,Sydney,Pho Gia Hoi,0,1,"https://www.zomato.com/sydney/pho-gia-hoi-cbd
+"
+1227.0,La Lucha,Sydney,La Lucha,0,1,"https://www.zomato.com/sydney/la-lucha-cbd
+"
+1214.0,The Char Rotisserie,Bondi,The Char Rotisserie,0,1,"https://www.zomato.com/sydney/the-char-rotisserie-bondi
+"
+741.0,Real Peas,Sydney,Real Peas,0,1,"https://www.zomato.com/sydney/real-peas-cbd
+"
+1679.0,Beau Tea,Kingsford,Beau Tea,0,4,"https://www.zomato.com/sydney/beau-tea-kingsford
+"
+1276.0,Salt Meats Cheese,Circular Quay,Salt Meats Cheese,0,1,"https://www.zomato.com/sydney/salt-meats-cheese-cbd
+"
+1042.0,Mad Mex,Sydney Central Plaza,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-2-cbd
+"
+1336.0,Piccolo Me,Macquarie Street,Piccolo Me,0,4,"https://www.zomato.com/sydney/piccolo-me-3-cbd
+"
+1493.0,Madame Nhu,Westfield Hornsby,Madame Nhu,0,3,"https://www.zomato.com/sydney/madame-nhu-hornsby
+"
+1047.0,Mad Mex,Randwick,Mad Mex,0,8,"https://www.zomato.com/sydney/mad-mex-randwick
+"
+1580.0,Black Label,Grosvenor Place,Black Label Burger Project,15,1,"https://www.zomato.com/sydney/black-label-burger-project-cbd
+"
+1571.0,Pablo and Rusty's,Sydney,Pablo & Rusty's,3,3,"https://www.zomato.com/sydney/pablo-rustys-cbd
+"
+1508.0,HongKong Kitchen,Sydney,Hong Kong Kitchen Chinatown 港夠味,15,1,"https://www.zomato.com/sydney/hong-kong-kitchen-chinatown-cbd
+"
+1550.0,YiFang Taiwan Fruit Tea,Burwood,Yifang Taiwan Fruit Tea 一芳水果茶,7,4,"https://www.zomato.com/sydney/yifang-taiwan-fruit-tea-burwood
+"
+1625.0,Danjee Korean BBQ,Sydney,Danjee,11,2,"https://www.zomato.com/sydney/danjee-cbd
+"
+477.0,The Ohbar Thai Cuisine 1982,Sydney CBD,THE OHBAR Thai Cuisine 1982,6,1,"https://www.zomato.com/sydney/the-ohbar-thai-cuisine-1982-cbd
+"
+1381.0,Award Kitchen,Sydney,Award Kitchen 澳華小廚,5,1,"https://www.zomato.com/sydney/award-kitchen-cbd
+"
+1017.0,Fogo Brazilian Churrasco,Bondi Junction,Fogo Brazilian Churrasco Grill,6,1,"https://www.zomato.com/sydney/fogo-brazilian-churrasco-grill-bondi-junction
+"
+1484.0,Xage,Surry Hills,Xage Vietnamese,11,1,"https://www.zomato.com/sydney/xage-vietnamese-surry-hills
+"
+1261.0,Banh and Butter,Sydney,Bánh & Butter,4,1,"https://www.zomato.com/sydney/bánh-butter-cbd
+"
+1461.0,Bowie Espresso Cafe,Sydney,Bowie Espresso,5,1,"https://www.zomato.com/sydney/bowie-espresso-cbd
+"
+1487.0,Kameya,The Rocks,Kameya Ramen Bar & Dining,19,1,"https://www.zomato.com/sydney/kameya-ramen-bar-dining-the-rocks
+"
+626.0,The Giant Bean,Marrickville,The Giant Bean Cafe,5,1,"https://www.zomato.com/sydney/the-giant-bean-cafe-marrickville
+"
+641.0,Zushi,Surry Hills,Zushi Surry Hills,12,1,"https://www.zomato.com/sydney/zushi-surry-hills-surry-hills
+"
+298.0,Sicilian Restaurant,Parramatta,Sicilian Parramatta,8,1,"https://www.zomato.com/sydney/sicilian-parramatta-parramatta
+"
+1598.0,Mrs Chan's Kitchen,Sydney,Mrs Chan's Kitchen - Charlie Chans,16,1,"https://www.zomato.com/sydney/mrs-chans-kitchen-charlie-chans-haymarket
+"
+1112.0,Messina,Bondi,Gelato Messina,7,9,"https://www.zomato.com/sydney/gelato-messina-bondi-beach
+"
+722.0,Andaqua,Surry Hills,Andaqua Vietnamese Restaurant,22,1,"https://www.zomato.com/sydney/andaqua-vietnamese-restaurant-surry-hills
+"
+880.0,Bangbang Espresso,Surry Hills,Bangbang Cafe,7,1,"https://www.zomato.com/sydney/bangbang-cafe-surry-hills
+"
+1264.0,Crafty Cuts,MLC Centre,Crafty Cuts Roastery,9,1,"https://www.zomato.com/sydney/crafty-cuts-roastery-cbd
+"
+1588.0,Tontaro Ramen,Sydney,Tontaro Ramen Honten,7,1,"https://www.zomato.com/sydney/tontaro-ramen-honten-cbd
+"
+1471.0,The Caffeine Project,Chippendale,TNS Coffee Project,5,1,"https://www.zomato.com/sydney/tns-coffee-project-chippendale
+"
+686.0,Bao Dao,Chatswood,Bao Dao Taiwanese Kitchen,18,1,"https://www.zomato.com/sydney/bao-dao-taiwanese-kitchen-chatswood
+"
+1683.0,China Chilli,Chatswood,China Chilli - Chatswood Interchange,24,1,"https://www.zomato.com/sydney/china-chilli-chatswood-interchange-chatswood
+"
+674.0,Two Sticks,Haymarket - The Quay,Two Sticks: Quay St,9,4,"https://www.zomato.com/sydney/two-sticks-quay-st-haymarket
+"
+823.0,Ipoh ,George Street,Ipoh Town,4,2,"https://www.zomato.com/sydney/ipoh-town-the-rocks
+"
+1513.0,Enjoy Cafe by Enjoy Mie,Sydney,Enjoy Cafe,13,1,"https://www.zomato.com/sydney/enjoy-cafe-haymarket
+"
+1473.0,Basax Korean,Haymarket,Basax Korean Chicken and Dining,19,1,"https://www.zomato.com/sydney/basax-korean-chicken-and-dining-haymarket
+"
+1076.0,Condor Japanese Restaurant,Sydney,Condor Japanese Restaurant - The York Hotel,17,1,"https://www.zomato.com/sydney/condor-japanese-restaurant-the-york-hotel-cbd
+"
+1667.0,Chef's Gallery,Jamison,Chefs Gallery Yum Cha,9,3,"https://www.zomato.com/sydney/chefs-gallery-yum-cha-cbd
+"
+1512.0,85 Degrees Cafe,Meriton Tower,85 Degrees Bakery & Cafe,9,1,"https://www.zomato.com/sydney/85-degrees-bakery-cafe-cbd
+"
+881.0,Arthurs Pizza,Bexley,Arthur's Express,8,3,"https://www.zomato.com/sydney/arthurs-express-bexley
+"
+982.0,Monte Alto,Crows Nest,Monte Alto Eatery and Bar,15,1,"https://www.zomato.com/sydney/monte-alto-eatery-and-bar-crows-nest
+"
+907.0,Bitter and Twisted,Millers Point,Bitter & Twisted,3,1,"https://www.zomato.com/sydney/bitter-twisted-millers-point
+"
+1260.0,4 Ounces Burger,Alexandria,4 Ounces Burger Co,3,1,"https://www.zomato.com/sydney/4-ounces-burger-co-alexandria
+"
+720.0,Swanky Noodle,Parramatta,Swanky Noodle Restaurant,11,1,"https://www.zomato.com/sydney/swanky-noodle-restaurant-parramatta
+"
+1635.0,Makanai Ramen Noodle House,Chatswood,Makanai,19,2,"https://www.zomato.com/sydney/makanai-chatswood
+"
+374.0,Busshari,Potts Point,Busshari Authentic Japanese Restaurant,30,1,"https://www.zomato.com/sydney/busshari-authentic-japanese-restaurant-elizabeth-bay
+"
+1439.0,LuMi Dining,Pyrmont,LuMi Bar & Dining,6,3,"https://www.zomato.com/sydney/lumi-bar-dining-pyrmont
+"
+1218.0,Shinsen Sushi,Sydney,Sushi Shinsen,10,1,"https://www.zomato.com/sydney/sushi-shinsen-cbd
+"
+1619.0,Chongqing Street Noodle,Chatswood,Chongqing Street Noodle 猫婆小面,5,1,"https://www.zomato.com/sydney/chongqing-street-noodle-1-chatswood
+"
+623.0,Ouroboros,Surry Hills,Ouroboros Wholefoods Cafe,16,1,"https://www.zomato.com/sydney/ouroboros-wholefoods-cafe-1-surry-hills
+"
+1342.0,Fratelli Famous,World Square,Fratelli Famous Pizzeria,9,2,"https://www.zomato.com/sydney/fratelli-famous-pizzeria-cbd
+"
+1167.0,Mamasan,Surry Hills,Mamasan Surry Hills,12,1,"https://www.zomato.com/sydney/mamasan-surry-hills-surry-hills
+"
+1655.0,Dumpling House,Chatswood,The Dumpling House,4,1,"https://www.zomato.com/sydney/the-dumpling-house-1-chatswood
+"
+1355.0,Ricefields,Steam Mill Lane,Ricefields 米味,3,1,"https://www.zomato.com/sydney/ricefields-haymarket
+"
+1146.0,Village Crown,Zetland,The Village Crown,4,1,"https://www.zomato.com/sydney/the-village-crown-zetland
+"
+1232.0,Dumplings and Beer,Potts Point,Dumplings & Beer,3,2,"https://www.zomato.com/sydney/dumplings-beer-potts-point
+"
+1648.0,IKU Wholefood,Glebe,Iku Wholefood,2,1,"https://www.zomato.com/sydney/iku-wholefood-glebe
+"
+1195.0,Phuong Restaurant,Crows Nest,Phuong,11,2,"https://www.zomato.com/sydney/phuong-crows-nest
+"
+1389.0,Kusuka,Sydney,Kusuka On Sussex,10,1,"https://www.zomato.com/sydney/kusuka-on-sussex-cbd
+"
