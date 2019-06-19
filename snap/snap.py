@@ -222,9 +222,13 @@ def get_levenshtein(df):
     editdists = []
     for _,r in df.iterrows():
         name = r['Name']
-        zomato = r['Zomato Name']
-        editdists += [editdistance.eval(name,zomato)]
+        try:
+            zomato = r['Zomato Name']
+            editdists += [editdistance.eval(name,zomato)]
+        except:
+            editdists += [np.inf]
     df['levenshtein'] = editdists
+    print('levenshtein df',df.head())
     return df
 
 
@@ -232,7 +236,7 @@ def cull_data(all_data):
     """
     Cull redundant data.
     """
-    cull = ['Uber','Secure Parking Melbourne','Taste Of Melbourne','UberEATS Sydney','UberEats','Liven Bistro','Liven Kitchen','UberEATS'
+    cull = ['Uber','Secure Parking Melbourne','Taste Of Melbourne','UberEATS Sydney','UberEats','Liven Bistro','Liven Kitchen','UberEATS','The Colonial','Naya Cafe','Taste of Szechuan',"Bowl Bar by Berry 'N' Beans",'Tj Fresh Sushi',"Dave's Deli"
            , 'Cardly - You Write, We Post', 'Good Food & Wine Show', 'Sayers Sister [Kounta Demo]','Liven Merchandise Store','Urban Life Photography'
            , 'Airtasker','Peninsula Hot Springs','Melbourne River Cruises','Grilla House','Margaret River Gourmet Escape','Madeira','Royale Fusion'
             ,'The Bar.Ber','Tandoori Point','The Italian Cucina','Tokyo Bar','The Trust', 'Willow Golf','Januwland Theme Park'
@@ -254,7 +258,7 @@ def prepare_data(city):
 
     city_branches = branch_transactions[branch_transactions.city==city].branchId.unique()
     
-    glue_data = sf.from_snow(schema='glue',query='select * from {}_'.format(city),to_df=False)
+    glue_data = sf.from_snow(schema='glue',query='select * from {}'.format(city),to_df=False)
     glue_df = pd.DataFrame(glue_data,columns=['Id','url'])
     
     snapnmatch = sf.from_snow(role='all_data_viewer',wh='load_wh',db='all_data',query=qry1,to_df=False)
@@ -291,9 +295,11 @@ def human_in_loop_sanity_check(snap_df):
 
     for _,r in snap_df[snap_df.levenshtein>1].iterrows():
         if type(matches[r['Name']])==int:
-            text = input("Is\n{}\n{} a match?\nRespond with enter, or n for false-positives. If you make an error, type 'restart'.\n\n".format(r['Name'],r['Zomato Name']))
+            text = input("Is\n{}: {}\n{} a match?\nRespond with enter, or n for false-positives. If you make an error, type 'restart'.\n\n".format(r['Name'],r['Suburb'],r['Zomato Name']))
             
             if text.lower()!='n' and text.lower()!='restart': 
+                if text[:5]=='https':
+                    r.url=text
                 new_df += [r.to_dict()]
                 matches[r['Name']] = r.to_dict()
             
@@ -304,8 +310,12 @@ def human_in_loop_sanity_check(snap_df):
             else: pass
 
         else: new_df += [matches[r['Name']]]
+    
+    df = pd.DataFrame.from_dict(new_df).drop_duplicates(subset='Id')
 
-    return pd.DataFrame.from_dict(new_df).drop_duplicates(subset='Id')
+    return df
+
+
 
 def populate_empty_branches(snap_df):
     interactions_df = sf.from_snow(role='all_data_viewer'
@@ -342,25 +352,39 @@ def populate_empty_branches(snap_df):
     return pd.DataFrame(urls, columns=['Name','Suburb','Id','Zomato Name','url','n']),interactions_df
 
 
-def snapmerchants(city,tolerance=3,sanity_check=False):
-    zomato, liven = prepare_data(city)
-    
-    FINAL_DF, count_error, name_error, size_of_data, tree = get_data(zomato, liven, city, tolerance)
 
+
+def snapmerchants(city,tolerance=3,sanity_check=True,get_dfs=False,to_sf=False):
+    zomato, liven = prepare_data(city)
+    print('\nLiven {} restaurants without urls: '.format(city.upper()),liven.Name.values,'\n')
     try:
-        nomatch = pd.read_csv('{}_nomatch.csv'.format(city.lower()))
-        new_df = nomatch.merge(FINAL_DF, how='outer')
-        new_df = new_df[new_df.url!='None'].drop_duplicates(subset='Name')
-        FINAL_DF = new_df
-    except: pass
+        FINAL_DF, count_error, name_error, size_of_data, tree = get_data(zomato, liven, city, tolerance)
+
+        FINAL_DF = FINAL_DF.merge(liven,how='outer')
+        if sanity_check:
+            FINAL_DF = human_in_loop_sanity_check(get_levenshtein(FINAL_DF))
+        else:
+            FINAL_DF = get_levenshtein(FINAL_DF)
+
+
+        snapped_data = sf.from_snow(schema='glue',query='select * from {}'.format(city.lower()),to_df=False)
+        snapped_df = pd.DataFrame(snapped_data,columns=['Id','url'])
+
+        snap_df = FINAL_DF[['Id','url']]
+
+        to_snowflake = pd.concat([snap_df,snapped_df])
+
+        sf.to_snow(df=to_snowflake
+               ,table='{}'.format(city.lower())
+               ,schema='glue')
+
+        if get_dfs: return FINAL_DF, count_error, name_error, size_of_data
+        elif to_sf: return to_snowflake,snap_df,snapped_df
+        else: return to_snowflake
+        
+    except:
+        print('Something went wrong.')
     
-    FINAL_DF.to_csv('{}_snaps.csv'.format(city))
-    if sanity_check:
-        FINAL_DF = human_in_loop_sanity_check(get_levenshtein(FINAL_DF))
-    else:
-        FINAL_DF = get_levenshtein(FINAL_DF)
-    
-    return FINAL_DF, count_error, name_error, size_of_data
 
 
 if __name__ == '__main__':
