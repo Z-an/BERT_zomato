@@ -12,27 +12,6 @@ from sklearn.neighbors import KDTree
 from fuzzymatcher import link_table
 
 
-def add_manual(snap_df):
-    interactions_df = sf.from_snow(role='all_data_viewer'
-                 ,db='all_data'
-                 ,wh='load_wh'
-                 ,q_kind='interactions')
-
-    interactions_df = interactions_df[interactions_df.city=='Sydney']
-    interactions_df = interactions_df[interactions_df.date>'2019-05-01']
-    merch_bid = interactions_df[['branchId','merchant']
-                               ].drop_duplicates().sort_values(by='merchant')
-
-    snapped = snap_df.Name.unique()
-
-    nosnap_df = merch_bid[~merch_bid.merchant.isin(snapped)].rename({'merchant':'Name'},axis=1)
-
-    concat_df = cull_data(pd.read_csv('nomatch.csv')
-              .merge(nosnap_df,on='Name',how='outer')
-             ).drop_duplicates(subset=['Name','branchId']).rename({'branchId':'Id'},axis=1)
-
-    return pd.concat([snap_df,concat_df],ignore_index=True)
-
 
 def extract_coordinates(locations):
     """
@@ -247,7 +226,8 @@ def cull_data(all_data):
 
 
 def prepare_data(city):
-    zomato = pd.read_csv('data/sydney.csv'.format(city.lower()))
+    print('just work smh')
+    zomato = pd.read_csv('data/{}.csv'.format(city.lower()))
     branch_transactions = pd.DataFrame(sf.from_snow
                                             (role='all_data_viewer'
                                             ,db='all_data'
@@ -258,13 +238,19 @@ def prepare_data(city):
 
     city_branches = branch_transactions[branch_transactions.city==city].branchId.unique()
     
-    glue_data = sf.from_snow(schema='glue',query='select * from {}'.format(city),to_df=False)
-    glue_df = pd.DataFrame(glue_data,columns=['Id','url'])
+    try:
+        glue_data = sf.from_snow(schema='glue',query='select * from {}'.format(city),to_df=False)
+        glue_df = pd.DataFrame(glue_data,columns=['Id','url'])
+    except:
+        pass
     
     snapnmatch = sf.from_snow(role='all_data_viewer',wh='load_wh',db='all_data',query=qry1,to_df=False)
 
     liven_merch_df = pd.DataFrame(snapnmatch, columns=["Name", "Branch", "Latitude", "Longitude", "City", "Id"])
-    liven_merch_df = liven_merch_df.merge(glue_df,how='outer')
+    try:
+        liven_merch_df = liven_merch_df.merge(glue_df,how='outer')
+    except:
+        pass
     liven_merch_df = liven_merch_df[liven_merch_df.url.isnull()].drop('url',axis=1)
     liven_merch_df = liven_merch_df[liven_merch_df.City==city.capitalize()]
     liven_merch_df = liven_merch_df.drop(liven_merch_df.index[0])
@@ -323,7 +309,8 @@ def populate_empty_branches(snap_df):
              ,wh='load_wh'
              ,q_kind='interactions')
 
-    interactions_df = interactions_df[interactions_df.city=='Sydney']
+    interactions_df = interactions_df[interactions_df.city=='{}'.format(CITY.Capitalize())]
+    
     merch_bid = interactions_df[['branchId','merchant']
                             ].drop_duplicates().sort_values(by='merchant')
 
@@ -389,4 +376,4 @@ def snapmerchants(city,tolerance=3,sanity_check=True,get_dfs=False,to_sf=False):
 
 if __name__ == '__main__':
     city = sys.argv[1].lower()
-    snapmerchants(city,sanity_check=bool(sys.argv[2]))
+    snapmerchants(city,to_sf=bool(sys.argv[2]))

@@ -1,17 +1,15 @@
 ,Name,Suburb,Id,Zomato Name,url
-0,Chilli and Spicy,Sydney,721.0,Hot And Spicy House,"https://www.zomato.com/sydney/hot-and-spicy-house-haymarket
-"
 0,Sergio's Trattoria and Pizzeria,Newtown,717.0,Alberto's Pizzeria,"https://www.zomato.com/sydney/albertos-pizzeria-newtown
 "
 1,Sergio's Trattoria and Pizzeria,Newtown,717.0,Ladda's The Thai Takeaway,"https://www.zomato.com/sydney/laddas-the-thai-takeaway-newtown
 "
 2,Sergio's Trattoria and Pizzeria,Newtown,717.0,Miss Lilly's Kitchen,"https://www.zomato.com/sydney/miss-lillys-kitchen-newtown
 "
-0,Tj Fresh Sushi,Ultimo,723.0,TJ Fresh Sushi,"https://www.zomato.com/sydney/tj-fresh-sushi-ultimo
-"
-0,Taste of Szechuan,Redfern,727.0,Taste Of Szechuan,"https://www.zomato.com/sydney/taste-of-szechuan-redfern
+0,Chilli and Spicy,Sydney,721.0,Hot And Spicy House,"https://www.zomato.com/sydney/hot-and-spicy-house-haymarket
 "
 0,Kawa Ramen,Haymarket,912.0,K'square,"https://www.zomato.com/sydney/ksquare-haymarket
+"
+0,Taste of Szechuan,Redfern,727.0,Taste Of Szechuan,"https://www.zomato.com/sydney/taste-of-szechuan-redfern
 "
 0,Dave's Deli,Sydney,1358.0,Dave’s Deli,"https://www.zomato.com/sydney/dave-s-deli-cbd
 "
@@ -20,4 +18,6 @@
 0,Restaurant Moon,Darlinghurst,1511.0,Yama Gardens Japanese Restaurant,"https://www.zomato.com/sydney/yama-gardens-japanese-restaurant-1-darlinghurst
 "
 1,Restaurant Moon,Darlinghurst,1511.0,Una's Café & Restaurant,"https://www.zomato.com/sydney/unas-café-restaurant-darlinghurst
+"
+0,Tj Fresh Sushi,Ultimo,723.0,TJ Fresh Sushi,"https://www.zomato.com/sydney/tj-fresh-sushi-ultimo
 "
